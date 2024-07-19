@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import image from "/undraw_website_u6x8.svg"; // Pastikan path ke gambar sesuai dengan struktur proyek Anda
+import { HelpButton } from "./HelpButton";
 
 const HeroSection = () => {
   return (
@@ -7,7 +7,14 @@ const HeroSection = () => {
       <Row className="align-items-center">
         <Col md={6}>
           <h1>Selamat Datang</h1>
-          <p>Selamat datang di website kami. Kami senang Anda di sini.</p>
+          <p>
+            Website ini berisi url menuju ke beberapa website yang ada di
+            farrasindo group
+          </p>
+          <div>
+            Masih bingung? bisa klik tombol
+            <HelpButton />
+          </div>
         </Col>
         <Col md={6} className="text-center">
           <img

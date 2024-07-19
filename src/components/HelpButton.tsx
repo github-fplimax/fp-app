@@ -10,14 +10,14 @@ const steps = [
     element: ".approval",
     popover: {
       title: "Approval Memo",
-      description: "App ini berfungsi untuk mengelola izin dan tanda tangan untuk Memo",
+      description: "Web ini berfungsi untuk mengelola izin dan tanda tangan untuk Memo",
     },
   },
   {
     element: ".archives",
     popover: {
-      title: "Management Archives",
-      description: "App ini berfungsi untuk mengelola setiap inventory yang ada",
+      title: "Manajemen Arsip",
+      description: "Web ini berfungsi untuk mengelola setiap inventory yang ada",
     },
   },
   {
@@ -40,7 +40,7 @@ const handleStartTour = () => {
 export const HelpButton = () => {
   return (
     <button
-      style={{ cursor: "pointer", backgroundColor: "#FF7F3E", color: "white" }}
+      style={{ cursor: "pointer", backgroundColor: "#FF7F3E", color: "white",  margin: "10px" , borderRadius: "10px"}}
       onClick={handleStartTour}
     >
       Bantuan
